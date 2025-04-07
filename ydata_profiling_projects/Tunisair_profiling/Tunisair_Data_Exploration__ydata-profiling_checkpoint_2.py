@@ -2,7 +2,7 @@ import pandas as pd
 from ydata_profiling import ProfileReport
 #part1
 #loading data
-data = pd.read_csv('Tunisair_flights_dataset.csv')
+data = pd.read_csv('Tunisair_flights_data.csv')
 df=pd.DataFrame(data)
 #exploring data
 print(df.info())

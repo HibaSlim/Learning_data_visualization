@@ -3,7 +3,7 @@ from ydata_profiling import ProfileReport
 
 # step 1:Data Exploration with Pandas
 #1.Load the Dataset
-file='diabetes.csv'
+file='Diabetes.csv'
 data=pd.read_csv(file)
 df=pd.DataFrame(data)
 print(df.head())
